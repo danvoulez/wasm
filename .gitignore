@@ -1,0 +1,3 @@
+/target
+**/*.wasm
+!engine/runtime/wasm/testdata/**/*.wasm

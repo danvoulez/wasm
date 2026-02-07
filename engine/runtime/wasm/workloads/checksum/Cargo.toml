@@ -1,0 +1,8 @@
+[package]
+name = "workload-checksum"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "checksum"
+path = "src/main.rs"

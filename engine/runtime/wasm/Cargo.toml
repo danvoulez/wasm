@@ -1,0 +1,21 @@
+[package]
+name = "wasm-sandbox"
+version = "0.1.0"
+edition = "2024"
+description = "Deterministic, capability-secured WASM sandbox engine"
+
+[dependencies]
+wasmtime = "29"
+wasmtime-wasi = "29"
+blake3 = "1"
+bytes = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order"] }
+tempfile = "3"
+thiserror = "2"
+tracing = "0.1"
+sha2 = "0.10"
+async-trait = "0.1"
+
+[dev-dependencies]
+wat = "1"

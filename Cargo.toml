@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "engine/runtime/wasm",
+    "engine/runtime/wasm/workloads/echo",
+    "engine/runtime/wasm/workloads/normalize_json",
+    "engine/runtime/wasm/workloads/checksum",
+]
+resolver = "2"

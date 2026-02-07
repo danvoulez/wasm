@@ -1,0 +1,11 @@
+[package]
+name = "workload-normalize-json"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde_json = "1"
+
+[[bin]]
+name = "normalize_json"
+path = "src/main.rs"
