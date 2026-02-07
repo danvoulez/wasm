@@ -5,8 +5,8 @@ edition = "2024"
 description = "Deterministic, capability-secured WASM sandbox engine"
 
 [dependencies]
-wasmtime = "29"
-wasmtime-wasi = "29"
+wasmtime = "36"
+wasmtime-wasi = "33"
 blake3 = "1"
 bytes = "1"
 serde = { version = "1", features = ["derive"] }
